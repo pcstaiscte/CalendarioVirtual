@@ -1,5 +1,6 @@
 body {
-  background: radial-gradient(#cee4c5 0%, #c4feab 100%);;
+  background-image: url('images/christmas_lights_wallpaper.jpg');
+  background-size: cover;
   font-family: sans-serif;
 }
 .wrapper {
@@ -9,6 +10,7 @@ body {
 .title {
   font-size: 1.5rem;
   text-align: center;
+  color: #fff;
 }
 ul#adventDoors {
 	position: relative;
