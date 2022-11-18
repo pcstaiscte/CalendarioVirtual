@@ -1,5 +1,5 @@
 var messages = [
-	["There is nothing in the world so irresistibly contagious as laughter and good humor.", "Charles Dickens"],
+	["Todos os natais abano os presentes para tentar perceber o que são. Uma vez, quando era mais nova e ainda não tinha um telemóvel, andei o mês inteiro super feliz porque estava convencida de que um dos presentes era um telemóvel. Tudo o indicava, o tamanho da caixa, o barulho que fazia quando abanava... Quando abri o presente não era um telemóvel, era um mini ferro de engomar. Acho que conseguem adivinhar como foi o meu dia a seguir. Dou-vos uma pista, não mandei mensagens aos meus amigos!", "Charles Dickens"],
 	["Christmas, children, is not a date. It is a state of mind.", "Mary Ellen Chase"],
 	["Christmas waves a magic wand over this world, and behold, everything is softer and more beautiful.", "Norman Vincent Peale"],
 	["Blessed is the season which engages the whole world in a conspiracy of love.", "Hamilton Wright Mabie"],
