@@ -58,7 +58,7 @@ function toggleCard(message){
 		card.style.display = "none"; }
 	
 	document.getElementById("picture").src = message.picture;
-	naipe = "<img id='naipe' src=" + message.naipe + ">";
+	naipe = "<img id='naipe' src=resources/" + message.naipe + ">";
 	document.getElementById("name").textContent = message.name;
 	document.getElementById("name").insertAdjacentHTML('beforeend', naipe);
 	document.getElementById("message").textContent = message.text;
