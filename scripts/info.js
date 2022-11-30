@@ -1,11 +1,5 @@
 var info = [
     {
-        'name': 'Berlim',
-        'naipe': 'pandeireta.png',
-        'picture': 'berlim.jpg',
-        'text': 'Todos os natais abano os presentes para tentar perceber o que são. Uma vez, quando era mais nova e ainda não tinha um telemóvel, andei o mês inteiro super feliz porque estava convencida de que um dos presentes era um telemóvel. Tudo o indicava, o tamanho da caixa, o barulho que fazia quando abanava... Quando abri o presente não era um telemóvel, era um mini ferro de engomar. Acho que conseguem adivinhar como foi o meu dia a seguir. Dou-vos uma pista, não mandei mensagens aos meus amigos!'
-    },
-    {
         'name': 'Millennium',
         'naipe': 'clarinete.png',
         'picture': 'millennium.jpg',
@@ -185,4 +179,52 @@ var info = [
         'picture': 'fana.jpg',
         'text': 'Quando montávamos a arvore de natal usávamos sempre o mesmo cd de musica natalícia mesmo quando ficou riscado, continuamos a usar o mesmo e ouvíamos a musica com "saltos". A minha mãe durante muito tempo fazia um jogo que só podias abrir uma prenda se acertasses uma pergunta de cultura geral ou sobre alguma matéria da escola que estivéssemos a estudar na altura.'
     },
+    {
+        'name': 'Dodô',
+        'naipe': 'acordeao.png',
+        'picture': 'dodo.jpg',
+        'text': 'Como tenho a família bastante grande, não gosto de passar o Natal com poucas pessoas. Por isso, quando houve um Natal que os meus pais queriam que passássemos só eles, a minha irmã e eu, eu resolvi inscrever-nos num programa de receber estudantes de Erasmus durante o Natal e tivemos 2 polacos a passar o Natal connosco. Eles experimentaram alguns práticos típicos portugueses e cozinharam para nós pratos típicos polacos - foi um Natal dinâmico.'
+    },
+    {
+        'name': 'Fogaça',
+        'naipe': 'bandolim.png',
+        'picture': 'fogaca.jpg',
+        'text': 'Costumamos reunir a família toda num sótão no Natal e como lá não há frigorífico, a nossa solução para a refrigeração das bebidas é colocá-las no parapeito da janela do lado de fora. Aproveitando, assim, o frio natural para a refrigeração.'
+    },
+    {
+        'name': 'Joana Rosa',
+        'naipe': 'guitarra.png',
+        'picture': 'joana.jpg',
+        'text': 'Normalmente passamos a noite de véspera de Natal com a família da parte da mãe, convivemos até à meia-noite e esperamos que um tio se disfarce de Pai Natal e distribua as prendas pelos mais novos. Houve uma noite de véspera de Natal em que o meu tio se recusou a fazer de Pai Natal então eu tive de o substituir com a ajuda de uma prima. No dia de Natal almoçamos com a família da parte do pai e passamos a tarde a ver filmes de Natal.'
+    },
+    {
+        'name': 'Ding',
+        'naipe': 'contrabaixo.png',
+        'picture': 'ding.jpg',
+        'text': 'Nada comum, mas no meu Natal costumamos montar a árvore dia 23 de dezembro enquanto comemos Ferrero Rocher. Diria que é algo recorrente, a quantidade de vezes que já caiu a árvore de Natal para cima de alguém por causa das minhas gatas que gostam muito de fingir que estão no WWE com a árvore. Jantar de consoada é dia 24. Abrir as prendas é dia 25 depois de acordar. Não me conseguem dizer o contrário.'
+    },
+    {
+        'name': 'Sábado',
+        'naipe': 'guitarra.png',
+        'picture': 'sabado.jpg',
+        'text': 'As minhas tradições de Natal são mais à base de ficarmos a comer e conversar à volta da mesa e o jantar é sempre bacalhau. Acabamos a noite sempre a jogar jogos de tabuleiros. Um momento que não me sai da cabeça foi quando o meu irmão mais novo era pequenino e nos obrigou a pormos um prato com bolachas e um copo de leite para o Pai Natal no dia anterior à Véspera de Natal.'
+    },
+    {
+        'name': 'Mariana',
+        'naipe': 'violino.png',
+        'picture': 'mariana.jpg',
+        'text': 'O meu Natal não é bem passado se não comermos o verdadeiro bacalhau ao jantar. Costume em minha casa é também, eu e o meu irmão darmos sempre um "concerto" à família.'
+    },
+    {
+        'name': 'Luna',
+        'naipe': 'violino.png',
+        'picture': 'luna.jpg',
+        'text': 'No meu Natal os mais pequenos abrem as prendas às 10h da noite e toda a gente vai para a sua casa dormir à 1h. Passamos a véspera a organizar o jantar, a suar os 40° e à noite chove e troveja, porque todos os natais em Moçambique há uma tempestade tropical.'
+    },
+    {
+        'name': 'Eletrões',
+        'naipe': 'guitarra.png',
+        'picture': 'eletroes.jpg',
+        'text': 'Quando era mais novo, costumava fazer a árvore de Natal no início de dezembro e ir à missa de galo dia 24 mais a minha família e claro abrir as prendas na manhã de 25. O momento mais caricato que tive foi quando o meu irmão uma vez quis ligar ao pai natal para lhe agradecer o presente que tinha recebido.'
+    }
 ]
