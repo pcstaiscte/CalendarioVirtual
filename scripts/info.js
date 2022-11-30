@@ -155,30 +155,44 @@ var info = [
     ],
     [
         {
-            'name': 'Mé',
-            'naipe': 'flauta.png',
-            'picture': 'me.jpg',
-            'text': 'Há 2 ou 3 anos, eu comprei uma prenda a minha irmã que ela queria bué, mas decidi que embrulhar e oferecer só era uma seca, então decidi pôr a prenda dentro de uma caixa de cereais corn flakes e embrulhar. Na noite de natal, quando ela desembrulhou a prenda dela e viu uma caixa de corn flakes ficou TAO DESILUDIDA, nem sei explicar, mas com o maior sorriso amarelo disse “ah obrigada mana, gostei muito”. Eu depois disse lhe para abrir a caixa de cereais, ela abriu e viu a prenda que queria, quase me saltou para os braços de tanta felicidade, a dizer “Obrigada mana, adorei !! Eu nem gosto nada de corn flakes, mas não queria que te sentisses mal!”.'
+            'name': 'Eletrões',
+            'naipe': 'guitarra.png',
+            'picture': 'eletroes.jpg',
+            'text': 'Quando era mais novo, costumava fazer a árvore de Natal no início de dezembro e ir à missa de galo dia 24 mais a minha família e claro abrir as prendas na manhã de 25. O momento mais caricato que tive foi quando o meu irmão uma vez quis ligar ao pai natal para lhe agradecer o presente que tinha recebido.'
         },
         {
-            'name': 'Popó',
-            'naipe': 'bombo.png',
-            'picture': 'popo.jpg',
-            'text': 'O meu irmão acha que eu sou uma mistura entre uma criança e uma velha então num Natal deu-me umas cuecas enormes de velha e um brinquedo de um ovo kinder de criança. Quando era mais nova era eu que me mascarava de pai natal e distribuía as prendas pela família.'
-        },
+            'name': 'Joana Rosa',
+            'naipe': 'guitarra.png',
+            'picture': 'joana.jpg',
+            'text': 'Normalmente passamos a noite de véspera de Natal com a família da parte da mãe, convivemos até à meia-noite e esperamos que um tio se disfarce de Pai Natal e distribua as prendas pelos mais novos. Houve uma noite de véspera de Natal em que o meu tio se recusou a fazer de Pai Natal então eu tive de o substituir com a ajuda de uma prima. No dia de Natal almoçamos com a família da parte do pai e passamos a tarde a ver filmes de Natal.'
+        }
     ],
     [
         {
-            'name': 'Guaca',
-            'naipe': 'flauta.png',
-            'picture': 'guaca.jpg',
-            'text': 'Quando era pequeno eu e o meu irmão faziamos teatros com peluches, juntávamos todos os que tinhamos em casa, levávamos e fazíamos as apresentações. Agora que cresci, ofereceram-me um livro, mas não era um livro qualquer chamava-se "Tie Me Up" que se tratava apenas dum livro com posições sexuais que envolviam nós e pessoas amarradas, tipo sadomasoquismo!'
+            'name': 'Sábado',
+            'naipe': 'guitarra.png',
+            'picture': 'sabado.jpg',
+            'text': 'As minhas tradições de Natal são mais à base de ficarmos a comer e conversar à volta da mesa e o jantar é sempre bacalhau. Acabamos a noite sempre a jogar jogos de tabuleiros. Um momento que não me sai da cabeça foi quando o meu irmão mais novo era pequenino e nos obrigou a pormos um prato com bolachas e um copo de leite para o Pai Natal no dia anterior à Véspera de Natal.'
         },
         {
-            'name': 'Damásio',
-            'naipe': 'bombo.png',
-            'picture': 'damasio.jpg',
-            'text': 'Era eu que fazia a entrega das prendas em criança.'
+            'name': 'Luna',
+            'naipe': 'violino.png',
+            'picture': 'luna.jpg',
+            'text': 'No meu Natal os mais pequenos abrem as prendas às 10h da noite e toda a gente vai para a sua casa dormir à 1h. Passamos a véspera a organizar o jantar, a suar os 40° e à noite chove e troveja, porque todos os natais em Moçambique há uma tempestade tropical.'
+        }
+    ],
+    [
+        {
+            'name': 'Ding',
+            'naipe': 'contrabaixo.png',
+            'picture': 'ding.jpg',
+            'text': 'Nada comum, mas no meu Natal costumamos montar a árvore dia 23 de dezembro enquanto comemos Ferrero Rocher. Diria que é algo recorrente, a quantidade de vezes que já caiu a árvore de Natal para cima de alguém por causa das minhas gatas que gostam muito de fingir que estão no WWE com a árvore. Jantar de consoada é dia 24. Abrir as prendas é dia 25 depois de acordar. Não me conseguem dizer o contrário.'
+        },
+        {
+            'name': 'Mariana',
+            'naipe': 'violino.png',
+            'picture': 'mariana.jpg',
+            'text': 'O meu Natal não é bem passado se não comermos o verdadeiro bacalhau ao jantar. Costume em minha casa é também, eu e o meu irmão darmos sempre um "concerto" à família.'
         },
     ],
     [
@@ -207,27 +221,27 @@ var info = [
     ],
     [
         {
-            'name': 'Joana Rosa',
-            'naipe': 'guitarra.png',
-            'picture': 'joana.jpg',
-            'text': 'Normalmente passamos a noite de véspera de Natal com a família da parte da mãe, convivemos até à meia-noite e esperamos que um tio se disfarce de Pai Natal e distribua as prendas pelos mais novos. Houve uma noite de véspera de Natal em que o meu tio se recusou a fazer de Pai Natal então eu tive de o substituir com a ajuda de uma prima. No dia de Natal almoçamos com a família da parte do pai e passamos a tarde a ver filmes de Natal.'
-        }
+            'name': 'Mé',
+            'naipe': 'flauta.png',
+            'picture': 'me.jpg',
+            'text': 'Há 2 ou 3 anos, eu comprei uma prenda a minha irmã que ela queria bué, mas decidi que embrulhar e oferecer só era uma seca, então decidi pôr a prenda dentro de uma caixa de cereais corn flakes e embrulhar. Na noite de natal, quando ela desembrulhou a prenda dela e viu uma caixa de corn flakes ficou TAO DESILUDIDA, nem sei explicar, mas com o maior sorriso amarelo disse “ah obrigada mana, gostei muito”. Eu depois disse lhe para abrir a caixa de cereais, ela abriu e viu a prenda que queria, quase me saltou para os braços de tanta felicidade, a dizer “Obrigada mana, adorei !! Eu nem gosto nada de corn flakes, mas não queria que te sentisses mal!”.'
+        },
     ],
     [
         {
-            'name': 'Sábado',
-            'naipe': 'guitarra.png',
-            'picture': 'sabado.jpg',
-            'text': 'As minhas tradições de Natal são mais à base de ficarmos a comer e conversar à volta da mesa e o jantar é sempre bacalhau. Acabamos a noite sempre a jogar jogos de tabuleiros. Um momento que não me sai da cabeça foi quando o meu irmão mais novo era pequenino e nos obrigou a pormos um prato com bolachas e um copo de leite para o Pai Natal no dia anterior à Véspera de Natal.'
-        }
+            'name': 'Damásio',
+            'naipe': 'bombo.png',
+            'picture': 'damasio.jpg',
+            'text': 'Era eu que fazia a entrega das prendas em criança.'
+        },
     ],
     [
         {
-            'name': 'Luna',
-            'naipe': 'violino.png',
-            'picture': 'luna.jpg',
-            'text': 'No meu Natal os mais pequenos abrem as prendas às 10h da noite e toda a gente vai para a sua casa dormir à 1h. Passamos a véspera a organizar o jantar, a suar os 40° e à noite chove e troveja, porque todos os natais em Moçambique há uma tempestade tropical.'
-        }
+            'name': 'Guaca',
+            'naipe': 'flauta.png',
+            'picture': 'guaca.jpg',
+            'text': 'Quando era pequeno eu e o meu irmão faziamos teatros com peluches, juntávamos todos os que tinhamos em casa, levávamos e fazíamos as apresentações. Agora que cresci, ofereceram-me um livro, mas não era um livro qualquer chamava-se "Tie Me Up" que se tratava apenas dum livro com posições sexuais que envolviam nós e pessoas amarradas, tipo sadomasoquismo!'
+        },
     ],
     [
         {
@@ -255,26 +269,10 @@ var info = [
     ],
     [
         {
-            'name': 'Ding',
-            'naipe': 'contrabaixo.png',
-            'picture': 'ding.jpg',
-            'text': 'Nada comum, mas no meu Natal costumamos montar a árvore dia 23 de dezembro enquanto comemos Ferrero Rocher. Diria que é algo recorrente, a quantidade de vezes que já caiu a árvore de Natal para cima de alguém por causa das minhas gatas que gostam muito de fingir que estão no WWE com a árvore. Jantar de consoada é dia 24. Abrir as prendas é dia 25 depois de acordar. Não me conseguem dizer o contrário.'
+            'name': 'Popó',
+            'naipe': 'bombo.png',
+            'picture': 'popo.jpg',
+            'text': 'O meu irmão acha que eu sou uma mistura entre uma criança e uma velha então num Natal deu-me umas cuecas enormes de velha e um brinquedo de um ovo kinder de criança. Quando era mais nova era eu que me mascarava de pai natal e distribuía as prendas pela família.'
         },
-    ],
-    [
-        {
-            'name': 'Mariana',
-            'naipe': 'violino.png',
-            'picture': 'mariana.jpg',
-            'text': 'O meu Natal não é bem passado se não comermos o verdadeiro bacalhau ao jantar. Costume em minha casa é também, eu e o meu irmão darmos sempre um "concerto" à família.'
-        },
-    ],
-    [
-        {
-            'name': 'Eletrões',
-            'naipe': 'guitarra.png',
-            'picture': 'eletroes.jpg',
-            'text': 'Quando era mais novo, costumava fazer a árvore de Natal no início de dezembro e ir à missa de galo dia 24 mais a minha família e claro abrir as prendas na manhã de 25. O momento mais caricato que tive foi quando o meu irmão uma vez quis ligar ao pai natal para lhe agradecer o presente que tinha recebido.'
-        }
     ]
 ]
