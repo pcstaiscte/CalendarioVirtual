@@ -21,7 +21,7 @@ function Door(calendar, day) {
 		innerNode.innerHTML = day;
 		innerNode.href = "#";
 
-		if( /*( currentDate.getMonth() + 1 ) < 12 ||*/ currentDate.getDate() < day ) {
+		/*if( ( currentDate.getMonth() + 1 ) < 12 || currentDate.getDate() < day ) {
 			innerNode.className = "disabled";
 			innerNode.onclick = function() {
 				return false;
@@ -29,11 +29,16 @@ function Door(calendar, day) {
 		} else {
 			var adventMessage = this.adventMessage;
 			innerNode.onclick = function() {
-				console.log(adventMessage)
 				doorClicked(adventMessage);
 				return false;
 			}
-		}	
+		}*/
+
+		var adventMessage = this.adventMessage;
+		innerNode.onclick = function() {
+			doorClicked(adventMessage);
+			return false;
+		}
 	};
 
 }
@@ -90,7 +95,7 @@ function toggle2Cards(side, message){
 }
 
 function hideCards(){
-	var cards = document.getElementsByClassName("card")
+	var cards = document.getElementsByClassName("closable")
 	for (card in cards){
 		console.log(cards[card].style.display)
 		if(cards[card].style.display != "none"){
