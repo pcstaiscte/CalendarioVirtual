@@ -14,13 +14,13 @@
 	</head>
 
 	<body>
-		<h1 class="title">Calendário de Advento dos PC's</h1>
+		<h1 class="title">Calendário de Advento</h1>
 		<div class="wrapper">
 			<img src="resources/background.jpg" alt="Advent Calendar" width="100%" height="100%" id="adventCal">
 			<ul id="adventDoors"></ul>
 		</div>
 		<div class="card" id="cardAlone" style="display: none;">
-			<p id="close" onclick="toggleCard()">&#10006;</p>
+			<p id="close" onclick="hideCards()">&#10006;</p>
 			<img class="picture" id="picture" src="resources/berlim.jpg" style="width:100%">
 			<h1 id="name">
 				Berlim
@@ -29,8 +29,8 @@
 			<p id="message"></p>
 		</div>
 		<div class="row">
-			<div class="card" id="cardLeft" style="display: none;">
-				<p id="close" onclick="toggleCard('Left')">&#10006;</p>
+			<div class="card" id="cardLeft">
+				<p id="close" onclick="hideCards()">&#10006;</p>
 				<img class="picture" id="pictureLeft" src="resources/berlim.jpg" style="width:100%">
 				<h1 id="nameLeft">
 					Berlim
@@ -38,8 +38,8 @@
 				</h1>
 				<p id="messageLeft"></p>
 			</div>
-			<div class="card" id="cardRight" style="display: none;">
-				<p id="close" onclick="toggleCard('Right')">&#10006;</p>
+			<div class="card" id="cardRight">
+				<p id="close" onclick="hideCards()">&#10006;</p>
 				<img class="picture" id="pictureRight" src="resources/abras.jpg" style="width:100%">
 				<h1 id="nameRight">
 					Àbrás

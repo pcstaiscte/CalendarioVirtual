@@ -29,7 +29,8 @@ function Door(calendar, day) {
 		} else {
 			var adventMessage = this.adventMessage;
 			innerNode.onclick = function() {
-				toggleCard(adventMessage);
+				console.log(adventMessage)
+				doorClicked(adventMessage);
 				return false;
 			}
 		}	
@@ -50,13 +51,23 @@ function Door(calendar, day) {
 	return doors;
 })();
 
+function doorClicked(day){
+	if (day.length == 1){
+		toggleCard(day[0])
+	} else {
+		toggle2Cards("Right", day[0])
+		toggle2Cards("Left", day[1])
+	}
+	
+
+}
+
 function toggleCard(message){   
 	var card = document.getElementById("cardAlone")
 	if(card.style.display == "none" || card.style.display == ""){
 		card.style.display = "block";
 	}else { 
 		card.style.display = "none"; }
-	console.log(document.getElementById("picture"))
 	document.getElementById("picture").src = "resources/fotos_tuna_calendario/" + message.picture;
 	naipe = "<img id='naipe' src=resources/" + message.naipe + ">";
 	document.getElementById("name").textContent = message.name;
@@ -66,15 +77,25 @@ function toggleCard(message){
 
 function toggle2Cards(side, message){   
 	var card = document.getElementById("card" + side)
-	console.log(message.picture)
 	if(card.style.display == "none" || card.style.display == ""){
 		card.style.display = "block";
 	}else { 
 		card.style.display = "none"; }
 	
-	document.getElementById("picture" + side).src = message.picture;
+	document.getElementById("picture" + side).src = "resources/fotos_tuna_calendario/" + message.picture;
 	naipe = "<img id='naipe' src=resources/" + message.naipe + ">";
 	document.getElementById("name" + side).textContent = message.name;
 	document.getElementById("name" + side).insertAdjacentHTML('beforeend', naipe);
 	document.getElementById("message" + side).textContent = message.text;
 }
+
+function hideCards(){
+	var cards = document.getElementsByClassName("card")
+	for (card in cards){
+		console.log(cards[card].style.display)
+		if(cards[card].style.display != "none"){
+			cards[card].style.display = "none"; 
+		}
+	}
+}
+
