@@ -1,5 +1,5 @@
 body {
-  background-image: url('resources/christmas_lights_wallpaper.jpg');
+  background-image: url('resources/woodTable.jpg');
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif
 }
@@ -45,7 +45,13 @@ ul#adventDoors {
 	cursor: default;
 }
 
-#card {
+.row {
+	position: fixed;
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+}
+
+.card {
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -60,15 +66,27 @@ ul#adventDoors {
 	text-align: center;
 }
 
-#name {
-	color: #006699;
+.cardCouple {
+	transform: translate(10%, -100%);
+	max-height: 100%;
+	max-width: 80%;
+	border-radius: 12px;
+	padding-left: 1%;
+	padding-right: 1%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	text-align: center;
 }
 
-#picture {
+.picture {
 	position: relative;
 	max-width: 40%;
 	margin-top: 3%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#name {
+	color: #006699;
 }
 
 #close{

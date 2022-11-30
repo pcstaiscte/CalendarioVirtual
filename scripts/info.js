@@ -114,7 +114,7 @@ var info = [
         'text': 'História engraçada do meu Natal era quando fingiam que o pai natal estava a chegar eu corria a chorar até outra divisão com medo, mas quando voltava já estava toda fixe e feliz para abrir prendas. Melhor prenda foi talvez a minha primeira máquina de café, isto para a ter num espaço de trabalho meu.'
     },
     {
-        'name': 'sabrina',
+        'name': 'Sabrina',
         'naipe': 'estandarte.png',
         'picture': 'sabrina.jpg',
         'text': 'Durante muito tempo acreditei na visita do pai natal, e afinal era apenas o meu pai disfarçado. Amo receber chocolates - Ferrero é um must! Fazer doces com a família e ficar à conversa em frente à lareira já são coisas que estranho se não acontecerem, no meu Natal.'
@@ -158,13 +158,13 @@ var info = [
     {
         'name': 'Damásio',
         'naipe': 'bombo.png',
-        'picture': 'damasion.jpg',
+        'picture': 'damasio.jpg',
         'text': 'Era eu que fazia a entrega das prendas em criança.'
     },
     {
         'name': 'Ainanas',
         'naipe': 'guitarra.png',
-        'picture': 'Ainanas.jpg',
+        'picture': 'ainanas.jpg',
         'text': 'Na minha família não se celebra o Natal desde que eu e o meu irmão éramos crianças, pelo que aproveitamos para viajar e conhecer um sítio diferente (longe do frio e da lareira). Um dos sítios mais caricatos foi na Serra Nevada numa cabana com uma família cabo Verdiana, onde partilharam alguns dos seus costumes.'
     },
     {

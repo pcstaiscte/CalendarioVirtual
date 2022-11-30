@@ -51,15 +51,30 @@ function Door(calendar, day) {
 })();
 
 function toggleCard(message){   
-	var card = document.getElementById("card")
+	var card = document.getElementById("cardAlone")
+	if(card.style.display == "none" || card.style.display == ""){
+		card.style.display = "block";
+	}else { 
+		card.style.display = "none"; }
+	console.log(document.getElementById("picture"))
+	document.getElementById("picture").src = "resources/fotos_tuna_calendario/" + message.picture;
+	naipe = "<img id='naipe' src=resources/" + message.naipe + ">";
+	document.getElementById("name").textContent = message.name;
+	document.getElementById("name").insertAdjacentHTML('beforeend', naipe);
+	document.getElementById("message").textContent = message.text;
+}
+
+function toggle2Cards(side, message){   
+	var card = document.getElementById("card" + side)
+	console.log(message.picture)
 	if(card.style.display == "none" || card.style.display == ""){
 		card.style.display = "block";
 	}else { 
 		card.style.display = "none"; }
 	
-	document.getElementById("picture").src = message.picture;
+	document.getElementById("picture" + side).src = message.picture;
 	naipe = "<img id='naipe' src=resources/" + message.naipe + ">";
-	document.getElementById("name").textContent = message.name;
-	document.getElementById("name").insertAdjacentHTML('beforeend', naipe);
-	document.getElementById("message").textContent = message.text;
+	document.getElementById("name" + side).textContent = message.name;
+	document.getElementById("name" + side).insertAdjacentHTML('beforeend', naipe);
+	document.getElementById("message" + side).textContent = message.text;
 }
