@@ -201,6 +201,12 @@ var info = [
             'naipe': 'guitarra.png',
             'picture': 'ainanas.jpg',
             'text': 'Na minha família não se celebra o Natal desde que eu e o meu irmão éramos crianças, pelo que aproveitamos para viajar e conhecer um sítio diferente (longe do frio e da lareira). Um dos sítios mais caricatos foi na Serra Nevada numa cabana com uma família cabo Verdiana, onde partilharam alguns dos seus costumes.'
+        },
+        {
+            'name': 'Atlas',
+            'naipe': 'flauta.png',
+            'picture': 'atlas.jpg',
+            'text': 'O meu melhor presente foi claramente uma viagem a Paris e claramente chorei quando recebi porque estava obsecada com a cidade.'
         }
     ],
     [
@@ -209,6 +215,12 @@ var info = [
             'naipe': 'guitarra.png',
             'picture': 'barretes.jpg',
             'text': 'É sempre muito tradicional, jantarada é sempre bacalhau em família. A melhor prenda de Natal que recebi foi um game boy colour e recordo-me quanto perdi o meu game boy e fiquei muito triste e no natal a minha mãe ofereceu-me outro.'
+        },
+        {
+            'name': 'Pingu',
+            'naipe': 'violino.png',
+            'picture': 'pingu.jpg',
+            'text': 'A melhor prenda de Natal que recebi foi a minha gata. Os meus pais fingiram q foram ao supermercado, tocaram à campainha para eu "ajudar com os sacos" e tchanaan!, a minha gatinha num cestinho de verga e um lacinho ao pescoço.'
         }
     ],
     [
