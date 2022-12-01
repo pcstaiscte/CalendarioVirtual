@@ -244,7 +244,7 @@ var info = [
             'name': 'Damásio',
             'naipe': 'bombo.png',
             'picture': 'damasio.jpg',
-            'text': 'Era eu que fazia a entrega das prendas em criança.'
+            'text': 'Quando era mais novo, era o mestre de cerimónias na noite de natal, sendo responsável pela leitura e distribuição das prendas. Outra coisa típica do meu Natal, é a minha mãe ter uma tendência horrível em meter caixas dentro de caixas para nós demorarmos imenso tempo a abrir as prendas.'
         },
     ],
     [
